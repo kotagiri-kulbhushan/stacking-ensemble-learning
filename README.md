@@ -8,13 +8,13 @@ To make the stacking process reliable, I used **K-Fold cross-validation blending
 ---
 
 ##  What I Implemented (Task Requirements)
-✔ Used **3 different types of base models** (linear, tree-based, and SVM)  
-✔ Implemented **K-Fold blending** to create meta-level input features  
-✔ Trained a **meta-classifier** to make the final prediction  
-✔ Compared **stacking performance vs individual models** using:
+1. Used **3 different types of base models** (linear, tree-based, and SVM)  
+2. Implemented **K-Fold blending** to create meta-level input features  
+3. Trained a **meta-classifier** to make the final prediction  
+4. Compared **stacking performance vs individual models** using:
 - Accuracy
 - F1 Score  
-✔ Added visual outputs:
+5. Added visual outputs:
 - Result comparison table
 - Confusion Matrix
 
@@ -86,7 +86,7 @@ All screenshots are available inside the `screenshots/` folder, including:
 1. Open the notebook: `stacking_ensemble_colab.ipynb`
 2. Run the cells one by one
 
-### ✅ Option 2: Run Locally
+###  Option 2: Run Locally
 First install dependencies:
 
 ```bash
